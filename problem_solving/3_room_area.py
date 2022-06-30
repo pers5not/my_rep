@@ -5,6 +5,13 @@
 # в формате числа с плавающей запятой. Дополните ввод и вывод единицами
 # измерения, принятыми в вашей стране. Это могут быть футы или метры.
 
-lenght, width = float(input("Enter lenght - ")), float(input('Enter width - '))
-area = lenght * width
-print(f"Area room = {area} sm")
+
+def is_float(lenght, width):
+    if lenght.replace('.', '', 1).isdigit() and width.replace('.', '', 1).isdigit():
+        area = float(lenght) * float(width)
+        print(f"Area room = {area} sm")
+    else:
+        print("Вы ввели чушь")
+
+
+is_float(input("Enter lenght - "), input('Enter width - '))
