@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 def for_seconds(hours, minutes, seconds):
     return hours * 3600 + minutes * 600 + seconds
 
