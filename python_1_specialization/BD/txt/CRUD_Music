@@ -1,0 +1,24 @@
+CREATE TABLE Album(
+id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+artist_id INTEGER,
+title TEXT
+)
+
+CREATE TABLE Track(
+id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+title TEXT,
+album_id INTEGER,
+genre_id INTEGER,
+len INTEGER, rating INTEGER, count INTEGER
+)
+
+INSERT INTO Track (title, rating, len, count, album_id, genre_id) VALUES ('Black Dog', 5, 297, 0, 2, 1);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id) VALUES ('Stairway', 5, 482, 0, 2, 1);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id) VALUES ('About to Rock', 5, 313, 0, 1, 2);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id) VALUES ('Who Made Who', 5, 207, 0, 1, 2)
+
+
+SELECT Album.name, Artist.name FROM Album JOIN Artist on Album.artist_id=Artist.id
+SELECT Track.title, Genre.name FROM Track JOIN Genre on Track.genre_id=Genre.id
+
+SELECT Track.title, Genre.name, Artist.name, Album.title FROM Track JOIN Genre JOIN Album JOIN Artist on Track.genre_id=Genre.id and Track.album_id=Album.id and Album.artist_id=Artist.id
