@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/johndoe/MY_education/Coursera/my_rep/Google/Using_Python_to_Interact_with_the_Operating_System/week_6/./ex_06_1.py", line 4, in <module>
+    printdd
+NameError: name 'printdd' is not defined. Did you mean: 'print'?
