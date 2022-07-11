@@ -1,0 +1,2 @@
+cut -d' ' -f5- /var/log/syslog | sort | uniq -c | sort -nr | head
+echo "#!/bin/bash" > toploglines.sh|chmod +x toploglines|code toploglines.sh
