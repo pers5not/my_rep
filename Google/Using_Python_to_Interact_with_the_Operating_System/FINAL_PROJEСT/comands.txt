@@ -1,0 +1,3 @@
+grep ticky syslog.log
+grep "ERROR" syslog.log
+grep "ERROR Tried to add information to closed ticket" syslog.log
