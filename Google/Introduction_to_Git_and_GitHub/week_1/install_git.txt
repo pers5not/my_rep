@@ -6,3 +6,9 @@ git config --global user.email "me@example.com"
                                                     добаввление пользователя git
 git config --global user.name "my name"
 }
+
+git init - инициализируем новый каталог git 
+git add <file_name> - добавляем файл в промежуточную область
+git status - показать ожидающиеся изменения
+git commit - добавить новый коммит
+git commit -m 'my commit' - добавить коммит не открывая редактор 
