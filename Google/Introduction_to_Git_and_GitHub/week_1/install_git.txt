@@ -1,0 +1,8 @@
+git --version - проверить версию git
+apt install git - установка git на пк
+
+{
+git config --global user.email "me@example.com"
+                                                    добаввление пользователя git
+git config --global user.name "my name"
+}
