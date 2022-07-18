@@ -1,3 +1,5 @@
-### Клонирование репозитория на
+### Клонирование репозитория на компьютер
 
-git clone https://github.com/pers5not/health-checks.git
+```
+git clone <path>
+```
