@@ -13,8 +13,6 @@ git pull
 
 ### Sites for hosting remote repositories
 
-```
- - [GitHub](https://github.com/)
- - [Gitlab](https://about.gitlab.com/)
- - [BitBucket](https://bitbucket.org/product)
-```
+- [GitHub](https://github.com/)
+- [Gitlab](https://about.gitlab.com/)
+- [BitBucket](https://bitbucket.org/product)
