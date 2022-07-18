@@ -1,5 +1,3 @@
-# Hello
+### Клонирование репозитория на
 
-## Hello
-
-### Hello
+git clone https://github.com/pers5not/health-checks.git
