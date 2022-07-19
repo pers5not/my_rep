@@ -36,3 +36,4 @@ def main():
 
 
 main()
+print("2")
