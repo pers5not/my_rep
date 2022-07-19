@@ -12,5 +12,7 @@ git fetch
 # Просмотреть коммиты других участников в удаленном репозитории
 git log <name...branch>
 # Объеденить удаленную и локальную ветки
-# git merge <name...branch>
+git merge <name...branch>
+# Просмотреть обновления после комманты git pull
+git log -p -1
 ```
