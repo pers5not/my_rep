@@ -15,4 +15,6 @@ git log <name...branch>
 git merge <name...branch>
 # Просмотреть обновления после комманты git pull
 git log -p -1
+# Чтоб добавить удаленную ветку
+git chekout <name...branch>
 ```
