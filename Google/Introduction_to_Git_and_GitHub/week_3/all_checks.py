@@ -34,6 +34,6 @@ def main():
     print("Everything ok.")
     sys.exit(0)
 
-
+print("1")
 main()
 print("2")
