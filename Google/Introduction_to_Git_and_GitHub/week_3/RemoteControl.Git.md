@@ -17,4 +17,6 @@ git merge <name...branch>
 git log -p -1
 # Чтоб добавить удаленную ветку
 git chekout <name...branch>
+# Получить содержимое удаленной ветки без автоматического слияния
+git remote update
 ```
