@@ -36,3 +36,5 @@ def main():
 
 
 main()
+print("Errors")
+print("Errors")
