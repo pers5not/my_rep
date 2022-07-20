@@ -1,14 +1,14 @@
 
 Если у вас есть Git 2.29 или более поздней версии, теперь вы можете установить значение pull.ff, чтобы избавиться от предупреждения. false true only
 ```
-git config pull.ff true
+git config pull.ff true     # rebase
 ```
 > true- Это поведение по умолчанию. Pull перематывается вперед, если это возможно, в противном случае он объединяется.
 ``` 
-git config pull.ff false
+git config pull.ff false        # merge (the default strategy)
 ```
 > false- Pull никогда не перематывается вперед, и всегда создается слияние.
 ```
-git config pull.ff only
+git config pull.ff only          # fast-forward only
 ```
 > only- Pull перематывается вперед, если это возможно, в противном случае операция прерывается с сообщением об ошибке
