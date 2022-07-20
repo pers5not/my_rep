@@ -10,4 +10,6 @@ git reset  HEAD~
 git push -f
 # добавляем ветку в удаленный репозиторий
 git push -u origin refactor
+# удаляем ветку из удаленного репозитория 
+git push -d origin <name...branch>
 ```
