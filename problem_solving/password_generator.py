@@ -52,17 +52,19 @@ while True:
 exit - выйти из программы
 
 Введите свой выбор через пробел 1 2 3 ........ 
-""").split()
+---> """).split()
         if 'exit' in user_choice:
             print(f"{user_name} Вы завершили программу")
             break
         password = add_symbol(clean_user_choice(user_choice))
         if password:
             print(
-                f"{user_name} Ваш пароль из {pass_len} символов: {generator_pas(password, pass_len)}")
+                f"\n{user_name} Ваш пароль из {pass_len} символов: {generator_pas(password, pass_len)}")
             break
+        else:
+            print(f"\n{user_name} Вы ввели что-то не то {user_choice} сделйте правильный выбор 1 2 3......\n")
     elif answer_user == 'no' or answer_user == 'n' or answer_user == 'not':
-        print(f"{user_name} Вы завершили программу")
+        print(f"\n{user_name} Вы завершили программу")
         break
     else:
-        print(f"{user_name} Ваш выбор {answer_user} а должно быть Y или N")
+        print(f"\n{user_name} Ваш выбор {answer_user} а должно быть Y или N")
