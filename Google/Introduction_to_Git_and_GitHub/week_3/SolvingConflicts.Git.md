@@ -5,4 +5,7 @@
 git checkout <name...branch> <name...file>
 # Копирование всей ветки
 git checkout <name...branch> ./
+# Удалить коммит удаленно 
+git reset  HEAD~
+git push -f
 ```
