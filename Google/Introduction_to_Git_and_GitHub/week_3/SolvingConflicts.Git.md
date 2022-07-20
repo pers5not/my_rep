@@ -12,4 +12,6 @@ git push -f
 git push -u origin refactor
 # удаляем ветку из удаленного репозитория 
 git push -d origin <name...branch>
+# еще один способ перенести изменения из одной ветки в другую
+git rebase <name...branch>
 ```
