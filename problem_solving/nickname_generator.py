@@ -37,7 +37,7 @@ DICT_TRANSLIT = user_name.maketrans({"а": "a",
 
 
 f = open('funy_words.txt', 'r')
-funy_words = [i.strip() for i in f]
+funy_words = [word.strip() for word in f]
 email_symbols = ".-_"
 email_domen = ['@gmail.com', "@mail.ru", "@yandex.ru", "@rambler.ru"]
 
