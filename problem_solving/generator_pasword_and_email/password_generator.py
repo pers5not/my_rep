@@ -1,5 +1,6 @@
+#@sadlarry_kh ----> Александр
 import random
-import nickname_generator as email_gen
+import email_generator as email_gen
 
 user_name = email_gen.user_name
 
