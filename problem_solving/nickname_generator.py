@@ -58,5 +58,3 @@ def gen_email(user_name):
         return str_catenation(random.choice(funy_words)[:4])
     else:
         return str_catenation(user_name)
-
-print(gen_email(user_name))
