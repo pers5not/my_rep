@@ -1,4 +1,5 @@
 import random
+import nickname_generator as email_gen
 
 user_name = input('Введите ваш логин - ')
 
