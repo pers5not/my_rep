@@ -1,7 +1,7 @@
 #!/usr/bin/env python3'
 import random
 
-user_name = input("Введите ваше имя - ").lower()
+user_name = input("Введите ваше имя - ")
 DICT_TRANSLIT = user_name.maketrans({"а": "a",
                                      "б": "b",
                                      "в": "v",
@@ -44,7 +44,7 @@ email_domen = ['@gmail.com', "@mail.ru", "@yandex.ru", "@rambler.ru"]
 
 def str_catenation(user_name):
     random_number = random.randint(1920, 2022)
-    random_name = user_name.translate(
+    random_name = user_name.lower().translate(
         DICT_TRANSLIT) + random.choice(email_symbols) + \
         random.choice(funy_words) + str(random_number) + \
         random.choice(email_domen)
