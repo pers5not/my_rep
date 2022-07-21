@@ -35,10 +35,9 @@ DICT_TRANSLIT = user_name.maketrans({"а": "a",
                                      "ю": "yu",
                                      "я": "ya", })
 
-funy_words = []
+
 f = open('funy_words.txt', 'r')
-for i in f:
-    funy_words.append(i.strip())
+funy_words = [i.strip() for i in f]
 email_symbols = ".-_"
 email_domen = ['@gmail.com', "@mail.ru", "@yandex.ru", "@rambler.ru"]
 
@@ -60,3 +59,4 @@ def gen_email(user_name):
     else:
         return str_catenation(user_name)
 
+print(gen_email(user_name))
